@@ -1,0 +1,6 @@
+boto3
+openpyxl
+pandas
+beautifulsoup4
+urllib3
+requests
