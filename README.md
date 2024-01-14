@@ -4,7 +4,8 @@
 python3と適当なライブラリが必要です
 
 - `社協等リンク集.xlsx` の「社協」「ボランティアセンター」のURLのデータを取得し、 前回取得した日付のデータと差分がないかを確認します。
-- full_text.csvに全文突っ込んで、今回の取得と差がないかを確認しています
+  - https://docs.google.com/spreadsheets/d/1ToG7uRymeSZbEJbecd-wvBb3XtXP6t2iXsBAfrwhtd4/
+- 前回実施分をfull_text.csvに全文突っ込んで、今回の取得と差がないかを確認しています
 - 生成された `diff_full_text.csv` の「update_text」に増えた内容・変更された内容が記載されます
 
 - 手動実行で共有するのも面倒なので、lambdaで動くものも存在してます。
